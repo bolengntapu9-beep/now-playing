@@ -1,0 +1,188 @@
+body{
+    font-family: unset;
+    color: mediumvioletred;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header{
+    background-color: rgb(248, 205, 212);
+    color: deeppink;
+    padding: 20px;
+    text-align: left;
+}
+footer {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: rgb(247, 143, 183);
+color: aliceblue;
+text-align: center;
+padding: 10px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+nav a {
+    font-weight: 500;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff4d6d;
+}
+
+.artists-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+h1 {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.artist-card {
+    h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    }
+    font-family: monospace;
+    font-size: large;
+  text-align: center;
+}
+
+.artist-card {
+  width: 340px;
+  padding: 20px;
+  border-radius: 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.artist-card img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.artist-card h5 {
+  margin-top: 10px;
+}
+.artists-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+header {
+  background: linear-gradient(135deg, #ffb1d3, #ff8ecc);
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+} 
+    <!-- Genres Section--> 
+    .genres-container {
+  display: inline-table;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+h1{
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.genres-card {
+    h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    }
+    h3{
+        font-family: monospace;
+        font-size: large;
+    }
+}
+
+.genres-card {
+  width: 340px;
+  padding: 20px;
+  border-radius: 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.genres-card img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.genres-card h5 {
+  margin-top: 10px;
+}
+.genres-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+header{
+  background: linear-gradient(135deg, #ffb1d3, #ff8ecc);
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+}
+.albums-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 60px;
+    h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    }
+    h3{
+        color: deeppink;
+        font-family: monospace;
+        font-display: swap;
+    }
+}
+
+.album-card {
+    font-family: monospace;
+    font-size: large;
+  text-align: center;
+}
+
+.album-card {
+    flex: 1;
+  width: 340px;
+  padding: 20px;
+  border-radius: 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.album-card img {
+    
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.album-card h5 {
+  margin-top: 10px;
+}
+.album-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+header {
+  background: linear-gradient(135deg, #ffb1d3, #ff8ecc);
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+} 

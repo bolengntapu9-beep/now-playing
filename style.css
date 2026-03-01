@@ -53,6 +53,10 @@ h1 {
     font-family: monospace;
     font-size: large;
   text-align: center;
+    h4{
+        a{
+            color: #fc85c6;
+        }
 }
 
 .artist-card {

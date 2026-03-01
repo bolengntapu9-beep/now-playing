@@ -46,6 +46,7 @@ h1 {
 }
 
 .artist-card {
+
     h2{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-weight: bold;
@@ -53,10 +54,11 @@ h1 {
     font-family: monospace;
     font-size: large;
   text-align: center;
-    h4{
+  h4{
         a{
             color: #fc85c6;
         }
+  }
 }
 
 .artist-card {
